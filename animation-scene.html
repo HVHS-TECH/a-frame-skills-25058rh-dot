@@ -9,9 +9,14 @@
             <!-- Set the sky -->
             <a-sky color="lightblue"></a-sky>
             <a-box 
-            positon="0 -5 -5"
+            positon="-5 -5 0"
             scale="2 2 2"
-            animation=""></a-box>
+            animation="
+            property:color;
+            from:red;
+            to:blue;
+            loop:true;
+            dir:alternate;"></a-box>
 
         </a-scene>
     </body>
