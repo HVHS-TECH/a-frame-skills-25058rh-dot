@@ -9,15 +9,22 @@
             <!-- Set the sky -->
             <a-sky color="lightblue"></a-sky>
             <a-box 
-            position="0 2 -5"
+            color="red"
             scale="2 2 2"
             animation="
-            property:color;
-            from:red;
-            to:blue;
+            property:position;
+            from:0 2 -5;
+            to:5 2 0;
             loop:true;
             dir:alternate;"
             ></a-box>
+            <a-sphere
+            position="-5 2 -5"
+            color="blue"
+            animation="
+            property:scale;
+            "
+            ></a-sphere>
 
         </a-scene>
     </body>
